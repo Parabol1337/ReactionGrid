@@ -1,0 +1,21 @@
+# Arduino build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.eep
+*.o
+*.a
+*.d
+
+# Arduino IDE / build directories
+build/
+.build/
+arduino_build_*/
+arduino_cache_*/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
